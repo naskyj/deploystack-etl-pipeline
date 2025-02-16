@@ -105,7 +105,7 @@ resource "google_composer_environment" "example" {
   config {
 
     software_config {
-      image_version = "composer-2.4.6-airflow-2.6.3"
+      image_version = "composer-3-airflow-2.10.2"
       env_variables = {
         AIRFLOW_VAR_PROJECT_ID  = var.project_id
         AIRFLOW_VAR_GCE_ZONE    = var.zone
